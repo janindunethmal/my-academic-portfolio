@@ -1822,7 +1822,7 @@ body.light nav.scrolled {
 }
 
 /* -------------------------------------------------- */
-/* Student Feedback Section (inside teaching cards)   */
+/* Student Feedback Section                            */
 /* -------------------------------------------------- */
 .teaching-feedback {
     margin-top: 1.5rem;
@@ -1905,74 +1905,6 @@ body.light nav.scrolled {
     object-fit: cover;
     cursor: pointer;
     display: block;
-}
-
-.feedback-delete-btn {
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(239, 68, 68, 0.85);
-    color: #fff;
-    font-size: 1rem;
-    line-height: 24px;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.2s;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.feedback-item:hover .feedback-delete-btn {
-    opacity: 1;
-}
-
-.feedback-delete-btn:hover {
-    background: #dc2626;
-    transform: scale(1.1);
-}
-
-.feedback-upload {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 1rem 0;
-}
-
-.feedback-upload-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.6rem 1.2rem;
-    border: 2px dashed var(--border-glass);
-    border-radius: 12px;
-    background: rgba(99, 102, 241, 0.04);
-    color: var(--primary);
-    font-size: 0.85rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-family: inherit;
-}
-
-.feedback-upload-btn:hover {
-    background: rgba(99, 102, 241, 0.1);
-    border-color: var(--primary);
-    transform: translateY(-1px);
-}
-
-.feedback-upload-note {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    opacity: 0.6;
-    margin: 0;
 }
 
 /* Feedback Lightbox */
