@@ -446,7 +446,7 @@ const FEEDBACK_IMAGES = {
 const MEMORIES_IMAGES = {
     gism:     ["01.jpg"],
     colombo:  ["01.jpg"],
-    usj:      ["01.jpg","02.jpg","03.jpg"]
+    usj:      ["01.jpg","02.jpg","03.jpeg"]
 };
 
 let currentUrls = [];
