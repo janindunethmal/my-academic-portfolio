@@ -438,9 +438,9 @@ document.querySelectorAll(".research-card, .teaching-card, .reference-card, .sta
 // Place your image files in assets/feedbacks/{folder}/ or assets/memories/{folder}/
 // then add the filenames to the arrays below. Supported: .jpg, .jpeg, .png, .gif, .webp
 const FEEDBACK_IMAGES = {
-    gism:     [],
+    gism:     ["01.png","02.png"],
     colombo:  ["01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png"],
-    usj:      []
+    // usj:   []
 };
 
 const MEMORIES_IMAGES = {
